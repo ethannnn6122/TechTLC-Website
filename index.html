@@ -25,7 +25,7 @@
             <form class="form-inline my-2 my-md-0"> </form>
         </div>
     </nav>
-    <div id="wrapper" class="toggled">
+    <div id="wrapper">
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
@@ -37,9 +37,9 @@
                 <li> <a href="#">Contact</a> </li>
             </ul>
         </div> <!-- /#sidebar-wrapper -->
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid img-fluid">
             <div class="container custContainer">
-                <h1>Tech TLC </h1>
+                <h1 id="hidden">Tech TLC </h1>
                 <h1>Web Design</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, quos, harum commodi fugiat nesciunt
@@ -50,10 +50,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <div class="card-body">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                            <h5 class="card-title">Card title</h5>
+                            <img class="card-img-top rounded mx-auto d-block" style="width: 40%; height: 40%;" src="webDesign.svg" alt="Card image cap">
+                            <br>
+                            <h5 class="card-title">Web Design</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="card-link">Card link</a>
@@ -61,9 +62,11 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <img class="card-img-top rounded mx-auto d-block" style="width: 40%; height: 40%;" src="server.svg" alt="Card image cap">
+                            <br>
+                            <h5 class="card-title">Web Hosting</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="card-link">Card link</a>
@@ -71,9 +74,11 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" >
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <img class="card-img-top rounded mx-auto d-block" style="width: 40%; height: 40%;" src="maintain.svg" alt="Card image cap">
+                            <br>
+                            <h5 class="card-title">Maintain</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="card-link">Card link</a>
@@ -87,49 +92,49 @@
     </div>
     <br>
     <footer id="myFooter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h2 class="logo"><a href="#"> LOGO </a></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"> LOGO </a></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
                     </div>
-                    <div class="col-sm-2">
-                        <h5>Get started</h5>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="#">Downloads</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <h5>About us</h5>
-                        <ul>
-                            <li><a href="#">Company Information</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Reviews</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <h5>Support</h5>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Help desk</a></li>
-                            <li><a href="#">Forums</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="social-networks">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                        </div>
-                        <button type="button" class="btn btn-default">Contact us</button>
-                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
                 </div>
             </div>
-            <div class="footer-copyright">
-                <p>© 2019 Copyright Text </p>
-            </div>
-        </footer>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2019 Copyright Text </p>
+        </div>
+    </footer>
     </div> <!-- /#wrapper -->
 
     <!-- Optional JavaScript -->
