@@ -1283,6 +1283,8 @@ body {
     display: block;
     text-decoration: none;
     color: #999999;
+    font-size: 1.2em;
+    margin-top: .5em;
 }
 
 .sidebar-nav li a:hover {
