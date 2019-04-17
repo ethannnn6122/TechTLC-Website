@@ -10,9 +10,10 @@ $(window).scroll(function () {
 
 btn.on('click', function (e) {
   e.preventDefault();
-  $('html, body').animate({
+  $("html, body").animate({
     scrollTop: 0
-  }, '300');
+  }, "slow");
+  return false;
 });
 
 $(function () {
